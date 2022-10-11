@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    text-align: center;
+}
+
+.weather-info{
+    padding-top: 20px;
+}
+
+.weather-info th{
+    text-align: left;
+}
+
+.error_message{
+    color: darkred;
+}

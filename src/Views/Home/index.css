@@ -1,18 +1,35 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+body {
+    background-color: #d5d4d4;
+}
 .container{
+    margin-top: 50px;
+}
+.MuiCardContent-root{
+    background-color: #d5d4d4;
+}
+.form1{
+    padding: 25px;
+}
+.search{
     text-align: center;
+    background-color: #f1f1f1;
+    width: 300px;
+    height: 170px;
+    box-shadow: #282c34;
+    border-radius: 10px;
+    margin: 25px auto;
+}
+.recentsearch{
+    margin: 25px auto ;
+    text-align: center;
+    background-color: #f1f1f1;
+    box-shadow: #282c34;
+    border-radius: 10px;
+    width: 300px;
+    height: fit-content;
+    padding: 15px;
 }
 
-.weather-info{
-    padding-top: 20px;
-}
-
-.weather-info th{
-    text-align: left;
-}
 
 .error_message{
     color: darkred;

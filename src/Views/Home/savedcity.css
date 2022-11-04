@@ -1,0 +1,22 @@
+body {
+    background-color: #d5d4d4;
+}
+.container{
+ margin: auto;
+}
+.savedcity{
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 400px;
+    height: fit-content;
+    box-shadow: #282c34;
+    border-radius: 10px;
+    margin: 25px auto;
+    padding: 20px;
+}
+.form{
+    padding: 0px;
+}
+.error_message{
+    color: darkred;
+}

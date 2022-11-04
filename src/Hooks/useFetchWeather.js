@@ -23,6 +23,10 @@ const useFetchWeather = ()=>{
     city: "",
     temp: "",
     humidity: "",
+    code: "",
+    high: "",
+    low: "",
+    pressure: "",
   }, setWeatherData] = useState();
 
   const [error, setError] = useState(null);
@@ -45,7 +49,11 @@ const useFetchWeather = ()=>{
       const weatherData = {
         city: response?.name,
         temp: response?.main?.temp,
-        humidity: response?.main?.humidity
+        humidity: response?.main?.humidity,
+        code: response?.sys?.country,
+        high: response?.main?.temp_max,
+        low: response?.main?.temp_min,
+        pressure: response?.main?.pressure
       }
 
       setWeatherData(weatherData);

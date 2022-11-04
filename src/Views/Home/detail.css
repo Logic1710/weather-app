@@ -1,0 +1,23 @@
+body {
+    background-color: #d5d4d4;
+}
+.container{
+ margin: 10px auto;
+}
+.detail{
+    margin: 10px auto;
+    background-color: #f1f1f1;
+    width: 650px;
+    height: 700px;
+    box-shadow: #282c34;
+    border-radius: 10px;
+    text-align: center;
+}
+.title{
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.error_message{
+    color: darkred;
+}
